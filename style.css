@@ -25,7 +25,7 @@
 
 /* navigation bar*/
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -33,7 +33,7 @@ ul {
     background-color: #124756;
     text-align: center;
     position: relative;
-    bottom: 80px;
+    bottom: 10px;
 }
 
 nav li {
@@ -70,11 +70,19 @@ body {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
+    font-size: 12pt;
+    color: #124756;
+    position: relative;
+    bottom: 30px;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
     color: #124756
 }
 
-.family {
+section {
     width: 100%;
     position: relative;
     bottom: 70px;
@@ -94,7 +102,8 @@ h1 {
     border: none;
     border-radius: 8px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-weight: 500;
+    font-size: 24pt;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -107,4 +116,76 @@ h1 {
     bottom: 80px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 400;
+    color: #124756;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    bottom: 20px;
+}
+
+section th {
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 500;
+    color: #124756;
+    font-size: 18px;
+    text-align: left;
+}
+
+section ul {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
+    color: #124756;
+}
+
+table {
+    position: relative;
+    bottom: 30px;
+}
+
+hr {
+    color: #124756;
+    position: relative;
+    bottom: 30px;
+}
+
+.lowerLine {
+    color: #124756;
+    position: relative;
+    bottom: 90px;
+}
+
+.rate {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
+    color: #124756;
+}
+
+label {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    text-align: left;
+    color: #124756;
+}
+
+.submitBtn {
+    border: none;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #F17A29;
+    position: relative;
+    bottom: 20px;
 }
